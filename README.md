@@ -1,3 +1,10 @@
+## llama2.c-portable
+| Definition  | Defined in | Comment |
+| ------------- | ------------- | ------- |
+| `CLI`  | `main.c` | Use CLI (standalone build) |
+| `PROMPT_FROM_FILE`  | `main.c` | Read prompt from `.txt` file (standalone build) |
+| `MAX_LIB_INSTANCES`  | `run.c`, `runq.c` | Maximum number of library instances that can exist at a time (lib build) |
+| `THREAD_NUM`  | `run.c`, `runq.c` | Number of worker threads for platforms without OPENMP support |
 ## llama2.c
 
 <p align="center">
