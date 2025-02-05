@@ -1,0 +1,14 @@
+﻿  run.c
+c:\users\user\source\repos\llama2c\llama2c\run.c(142): warning C4244: функция: преобразование "int64_t" в "size_t", возможна потеря данных
+c:\users\user\source\repos\llama2c\llama2c\run.c(475): warning C4244: функция: преобразование "int" в "float", возможна потеря данных
+c:\users\user\source\repos\llama2c\llama2c\run.c(424): warning C4244: инициализация: преобразование "unsigned __int64" в "int", возможна потеря данных
+  runq.c
+c:\users\user\source\repos\llama2c\llama2c\runq.c(138): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\user\source\repos\llama2c\llama2c\runq.c(231): warning C4244: функция: преобразование "int64_t" в "size_t", возможна потеря данных
+c:\users\user\source\repos\llama2c\llama2c\runq.c(505): warning C4244: функция: преобразование "int" в "float", возможна потеря данных
+  Создание кода
+  4 of 54 functions ( 7.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  llama2c.vcxproj -> C:\Users\user\source\repos\llama2c\Release\llama2c.exe

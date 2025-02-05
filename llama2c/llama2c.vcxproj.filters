@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\win32">
+      <UniqueIdentifier>{5830064b-ae64-4935-bbd8-40d8b00f6559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\win32">
+      <UniqueIdentifier>{9264d6f1-313b-4383-8b54-80c469d08668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\psp2">
+      <UniqueIdentifier>{293225c6-28ef-4704-bb41-5e362ecb8b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\psp2">
+      <UniqueIdentifier>{51e21998-aed6-4e7a-b8c7-2411f2964bc7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="run.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="runq.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="common.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win.c">
+      <Filter>Исходные файлы\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="psp2\psp2.c">
+      <Filter>Исходные файлы\psp2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="llama2c.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\win.h">
+      <Filter>Файлы заголовков\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="psp2\psp2.h">
+      <Filter>Файлы заголовков\psp2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
